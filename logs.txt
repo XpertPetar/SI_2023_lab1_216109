@@ -1,0 +1,28 @@
+commit 411870f0a903cee7343499530123c33a036c342e (HEAD -> master, origin/bug3, bug3)
+Author: Petar Josifoski <josifoski.petar@gmail.com>
+Date:   Sat Apr 8 18:58:03 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 037e2be96ebc86d6ec33775b143a79da07e18c66 (origin/master)
+Merge: 9b26422 7f4b69b
+Author: Petar Josifoski <josifoski.petar@gmail.com>
+Date:   Sat Apr 8 19:11:28 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 7f4b69bcc4235c04b4fdae8e2afc57b7868620ec (origin/bug2, bug2)
+Author: Petar Josifoski <josifoski.petar@gmail.com>
+Date:   Sat Apr 8 18:53:07 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 9b264229cf66b0997039cb144d23a1aef0c12908 (origin/bug1, bug1)
+Author: Petar Josifoski <josifoski.petar@gmail.com>
+Date:   Sat Apr 8 18:47:34 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 01e54a43a45ebfb8602d980bdc3db71cc322e265
+Author: Petar Josifoski <josifoski.petar@gmail.com>
+Date:   Sat Apr 1 14:02:58 2023 +0200

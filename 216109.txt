@@ -1,0 +1,66 @@
+4. 	mkdir SI_2023_lab1_216109
+   	cd SI_2023_lab1_216109
+	git init (Иницијализација на локален git repo)
+
+5. 	git remote add origin https://github.com/XpertPetar/SI_2023_lab1_216109.git (Поврзување со оддалечен github репозиториум)
+
+6. 	echo Petar Josifoski 216109 > README.md
+	git add .
+	git commit -m "Initial commit" (Креирање прв commit)
+
+7. 	git add SILab1.java
+	git commit -m "Add java class" (Додавање на јава класата)
+
+8.	git push origin master (Push до github repo)
+
+9.	git branch bug1
+	git branch bug2
+	git branch bug3	(Креирање на трите гранки)
+
+10.	git checkout bug1	(Префрлање на bug1 гранката)
+
+11.	SILab.java (Го отвараме фајлот и ја поправаме грешката од <= во < во for циклусот)
+	git add SIlab.java
+	git commit -m "Fix wrong loop for reading" (Додавање на промените)
+
+12.	git checkout bug2 (Префрлање на bug2 гранката)
+
+13.	SILab.java - (Го отвараме фајлот и ја поправаме грешката од == 0 во != 0 во if-от)
+	git add SILab.java
+	git commit -m "Fix wrong condition in filterOddNumbers" (Додавање на промените)
+
+14.	git checkout bug3 (Префрлање на bug3 гранката)
+
+15.	SILab.java - (Го отвараме фајлот и ја поправаме 2 грешки, прво int sum = 0, па sum += el)
+	git add SILab.java
+	git commit -m "Fix method sumEvenNumbers" (Додавање на промените)
+
+16.	git push --all (Синхронизација на remote repo)
+
+17.	git checkout master (Префрлање на master гранката)
+
+18.	git merge bug1 (Спојување на bug1 со master branch, притоа нема конфликти и стратегијата е  Fast-forward)
+
+19.	git push --all (Синхронизација на remote repo)
+
+20.	git merge bug2 (Спојување на bug2 со master branch, притоа нема конфликти и стратегијата е Recursive)
+
+21.	git push --all (Синхронизација на remote repo)
+
+22.	git checkout bug3 (Префрлање на bug3 гранката)
+
+23.	git rebase master (Правење rebaste на master)
+
+24.	git checkout master (Префрлање на master гранката)
+
+25.	git merge bug3 (Спојување на bug3 со master branch, притоа нема конфликти и стратегијата е Fast-Forward)
+
+26.	git push –f origin bug3 (Push со force -f на гранката bug3)
+
+27.	git add .
+	git commit -m "Final commit" (Додавање на новите txt фајлови)
+
+28.	git push --all
+
+
+	
